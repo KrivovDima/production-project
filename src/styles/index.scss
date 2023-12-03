@@ -1,0 +1,13 @@
+@import 'reset';
+@import 'variables/general';
+@import 'themes/light';
+@import 'themes/dark';
+
+.app {
+    height: 100vh;
+    font-family: var(--font-family);
+    font-size: var(--font-size-regular);
+    line-height: var(--line-height-regular);
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
