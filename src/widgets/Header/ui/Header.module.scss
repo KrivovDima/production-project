@@ -1,0 +1,15 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    height: var(--header-height);
+    padding: 0 200px;
+    box-shadow: var(--header-shadow);
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    gap: 120px;
+    font-weight: 600;
+}
