@@ -4,7 +4,11 @@
     --font-size-heading: 56px;
     --line-height-regular: 28px;
     --line-height-heading: 68px;
+
+    // sizes
     --header-height: 80px;
+    --side-bar-width: 300px;
+    --side-bar-collapsed-width: 80px;
 
     // colors
     --main-light-color: #fff;
@@ -13,4 +17,5 @@
 
     //shadows
     --header-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.10);
+    --side-bar-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.10);
 }

@@ -5,8 +5,7 @@ import styles from './Header.module.scss'
 
 export const Header = () => {
   return (
-    <header className={styles.header}>
-        <ToggleTheme />    
+    <header className={styles.header}>    
         <nav className={styles.nav}>
           <NavLink to={pagesPaths.main}>Main</NavLink>
           <NavLink to={pagesPaths.about}>About</NavLink>

@@ -1,0 +1,20 @@
+.sideBar {
+    width: var(--side-bar-width);
+    transition: width 0.3s;
+    box-shadow: var(--side-bar-shadow);
+    display: flex;
+    flex-direction: column;
+}
+
+.collapsed {
+    width: var(--side-bar-collapsed-width);
+}
+
+.main {
+    flex-grow: 1;
+}
+
+.bottomActions {
+    display: flex;
+    justify-content: center;
+}
